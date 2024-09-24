@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Emprendimiento - Login</title>
+    <link rel="icon" href="img/EmprendeU.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1> Bienvenido A EmprendeU</h1>
+    </header>
+     
+    <br>
+    <div class="imagen">
+        <img src="img/Emprendimiento.png" alt="no se encontro imagen" title="Emprendimiento" width="500px" height="250px">
+        <br>
+    </div>
+    <h1>Iniciar Sesión</h1>
+    <form id="loginForm">
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label>Rol Asignado</label> <br>
+                <select>
+                    <option selected="true">Selecciona Tu Rol</option>
+                    <option>Admin</option>
+                    <option>Usuario (Emprendedor)</option>
+                </select><br>
+        <button type="submit">Iniciar sesión</button>
+        <div class="informacion">
+<div class="item">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1003560.3367247534!2d-75.56247845634255!3d10.722327702633379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42deb8e3cbc15%3A0x35c35675c906bc28!2sGran%20Malec%C3%B3n%20del%20R%C3%ADo...!5e0!3m2!1ses-419!2sco!4v1727215526144!5m2!1ses-419!2sco" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="item">
+    <iframe width="500" height="500" src="https://www.youtube.com/embed/0aGF86nTr6Y?si=sMxHzG2tuEGPGsaZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+<div class="pie"> 
+        
+    www.emprendeu.com <br>
+    telefono 3002133764 <br>
+    Barranquilla - Colombia 
+    
+</div>
+    </form>
+    <div id="loginMessage"></div>
+    <script src="js/login.js"></script>
+</body>
+</html>
